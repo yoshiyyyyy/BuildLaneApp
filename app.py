@@ -8,7 +8,7 @@ import BuildLane
 
 
 
-UPLOAD_FOLDER = '/Users/yoshimasa/projects/python/BuildLaneApp/static/uploads/'
+UPLOAD_FOLDER = './static/uploads'
 
 app = Flask(__name__, template_folder='./templates')
 app.config["SECRET_KEY"] = "sample"
